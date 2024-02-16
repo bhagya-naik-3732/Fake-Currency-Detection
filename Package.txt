@@ -1,0 +1,78 @@
+
+
+Name: tensorflow
+Version: 2.2.0
+Summary: TensorFlow is an open source machine learning framework for everyone.
+Home-page: https://www.tensorflow.org/
+Author: Google Inc.
+Author-email: packages@tensorflow.org
+License: Apache 2.0
+Location: c:\users\admini~1\appdata\local\programs\python\python36\lib\site-packages
+Requires: opt-einsum, keras-preprocessing, tensorboard, grpcio, protobuf, google-pasta, h5py, absl-py, termcolor, tensorflow-estimator, wheel, six, astunparse, gast, wrapt, numpy, scipy
+Required-by: yolov3
+---
+Name: Keras
+Version: 2.4.3
+Summary: Deep Learning for humans
+Home-page: https://github.com/keras-team/keras
+Author: Francois Chollet
+Author-email: francois.chollet@gmail.com
+License: MIT
+Location: c:\users\admini~1\appdata\local\programs\python\python36\lib\site-packages
+Requires: numpy, scipy, pyyaml, h5py
+Required-by: yolov3
+---
+Name: Flask
+Version: 1.1.2
+Summary: A simple framework for building complex web applications.
+Home-page: https://palletsprojects.com/p/flask/
+Author: Armin Ronacher
+Author-email: armin.ronacher@active-4.com
+License: BSD-3-Clause
+Location: c:\users\admini~1\appdata\local\programs\python\python36\lib\site-packages
+Requires: Jinja2, Werkzeug, itsdangerous, click
+Required-by:
+---
+Name: pytesseract
+Version: 0.3.6
+Summary: Python-tesseract is a python wrapper for Google's Tesseract-OCR
+Home-page: https://github.com/madmaze/pytesseract
+Author: Samuel Hoffstaetter
+Author-email: samuel@hoffstaetter.com
+License: Apache License 2.0
+Location: c:\users\admini~1\appdata\local\programs\python\python36\lib\site-packages
+Requires: Pillow
+Required-by:
+---
+Name: pandas
+Version: 1.0.4
+Summary: Powerful data structures for data analysis, time series, and statistics
+Home-page: https://pandas.pydata.org
+Author: None
+Author-email: None
+License: BSD
+Location: c:\users\admini~1\appdata\local\programs\python\python36\lib\site-packages
+Requires: pytz, python-dateutil, numpy
+Required-by: seaborn
+---
+Name: numpy
+Version: 1.18.5
+Summary: NumPy is the fundamental package for array computing with Python.
+Home-page: https://www.numpy.org
+Author: Travis E. Oliphant et al.
+Author-email: None
+License: BSD
+Location: c:\users\admini~1\appdata\local\programs\python\python36\lib\site-packages
+Requires:
+Required-by: -pencv-python, yolov3, wxPython, tifffile, tflearn, tensorflow, tensorflow-tensorboard, tensorflow-gpu, tensorboard, seaborn, scipy, scikit-learn, scikit-image, PyWavelets, pyfits, PyAstronomy, pandas, opt-einsum, opencv-python, mxnet, matplotlib, lmfit, Keras, Keras-Preprocessing, Keras-Applications, imageio, imageai, h5py, gwcs, gluoncv, astropy, astroML, asdf, face-recognition
+---
+Name: joblib
+Version: 0.15.1
+Summary: Lightweight pipelining: using Python functions as pipeline jobs.
+Home-page: https://joblib.readthedocs.io
+Author: Gael Varoquaux
+Author-email: gael.varoquaux@normalesup.org
+License: BSD
+Location: c:\users\admini~1\appdata\local\programs\python\python36\lib\site-packages
+Requires:
+Required-by: scikit-learn
